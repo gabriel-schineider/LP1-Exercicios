@@ -1,0 +1,22 @@
+PERGUNTA 1:
+  Qual é a diferença entre tipagem estática e dinâmica?
+
+RESPOSTA 1:
+  A tipagem estática necessita que o desenvolvedor declare a variável já indicando o tipo de dado referente à ela. Por outro lado, a tipagem dinâmica identifica qual é o tipo de dado da variável automáticamente ao ser atribuído algum valor à ela, não havendo a necessidade de declará-la, apenas atribuir valor.
+
+
+
+PERGUNTA 2:
+  Dê exemplos de linguagens que usem tipagem estática e exemplos de linguagens que usem tipagem dinâmica.
+
+RESPOSTA 2:
+  Estática → C ; Dinâmica → Python.
+
+
+
+PERGUNTA 3:
+  Por que uma linguagem com tipagem estática é tipicamente mais rápida do que uma com tipagem dinâmica? Justifique usando um exemplo.
+
+RESPOSTA 3:
+  Porque na linguagem de tipagem estática os tipos das variáveis são verificados em tempo de compilação, enquanto na linguagem de tipagem dinâmica os tipos das variáveis são verificados em tempo de execução.
+  Por exemplo, antes de realizar uma operação matemática de soma, a linguagem de tipagem dinâmica vai primeiro verificar se os operandos são compatíveis para, após a checagem, realizar a operação. Na linguagem de tipagem estática, essa verificação é feita na hora da compilação, não havendo, assim, a necessidade de checar os operandos no momento da operação, ou seja, o programa apenas realiza a operação, sem parar antes para realizar uma checagem ou verificação.

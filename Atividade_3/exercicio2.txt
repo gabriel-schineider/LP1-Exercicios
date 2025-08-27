@@ -1,0 +1,30 @@
+Considere o programa a seguir:
+
+#include <stdio.h>
+void main (void) {
+    printf("Soma = %d\n", 100-"10");
+}
+
+
+PERGUNTA 1:
+  O que você espera que aconteça ao compilar o programa? Por quê?
+
+RESPOSTA 1:
+  Dê erro. Porque há uma tentativa de manipular, isto é, realizar operações matemáticas, entre um número e uma palavra. 
+
+
+
+PERGUNTA 2:
+  Quais são os tipos dos operandos na operação de subtração?
+
+RESPOSTA 2:
+  100 → int (inteiro) ; "10" → char[2] (character with two bytes)
+
+
+
+PERGUNTA 3:
+  Transcreva a mensagem de erro de compilação e a explique.
+
+RESPOSTA 3:
+  mensagem de errro: "error: invalid operands to binary - (have ‘int’ and ‘char *’)"
+  significado: esta mensagem de erro está dizendo que, para uma operação binária, isto é, uma operação matemática que envolve duas entradas e resulta em uma saída, os operandos são inválidos devido ao diferente tipo deles. Um é inteiro e o outro é uma cadeia de caracteres.

@@ -1,0 +1,12 @@
+PERGUNTA 1:
+  O que é um tipo de dados?
+
+RESPOSTA 1:
+  Tipos são uma forma de classificar os dado de acordo com sua respectiva natureza, por exemplo, se o dado é inteiro, real, lógico, caractere.
+
+
+PERGUNTA 2:
+  Para que servem os tipos?
+
+RESPOSTA 2:
+  Determinar o tipo do dado é importante pois além de indicar ao computador a quantidade de memória necessária para alocar tal informação, algo que torna o programa mais eficiente, também previne o programa de realizar operações indevidas envolvendo dados de diferentes tipos, visto que não faz sentido somar um número real com um conjunto de caracteres.
