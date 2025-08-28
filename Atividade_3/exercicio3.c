@@ -3,7 +3,7 @@
 int main (void)
 {
 	short int i, qntVetor = 50, temps[qntVetor], soma = 0, qntAcimaMedia = 0;
-	double media;
+	float media;
 	
 	printf("Catalogue %hd temperaturas.\n", qntVetor);
 	for (i=0; i < qntVetor; i++)
