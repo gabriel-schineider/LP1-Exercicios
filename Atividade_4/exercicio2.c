@@ -1,9 +1,10 @@
 # include <stdio.h>
+# include <math.h>
 
 int eh_primo(int n) //função do exercício1 sem alterá-la
 {
 	int primo=1;	
-	for (int i=2; i<n; i++)
+	for (int i=2; i<=sqrt(n); i++)
 	{
 		if (n%i == 0){
 			primo = 0;
@@ -26,7 +27,7 @@ int todos_os_primos (int max)
 	}
 }
 
-int main ()
+int main (void)
 {
 	int num;
 	printf("Digite um número para receber todos os primos entre 1 e ele: ");
