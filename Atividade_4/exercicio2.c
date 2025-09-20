@@ -14,7 +14,7 @@ int eh_primo(int n) //função do exercício1 sem alterá-la
 	return primo;
 }
 
-int todos_os_primos (int max)
+void todos_os_primos (int max)
 {
 	int resultado;
 	for (int i=1; i<=max; i++)
