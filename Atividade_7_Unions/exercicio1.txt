@@ -1,0 +1,8 @@
+#PERGUNTA
+ Qual é a diferença entre struct e union. Dê exemplos de uso que identifiquem a necessidade dos dois construtores de tipos.
+
+#RESPOSTA
+ Ambos são tipos de dados, a diferença é que struct é uma composição cujos elementos são ligados pelo operador "E", enquanto union é uma composição cujos elementos são ligados pelo operador "OU". Ou seja, na struct, todos os elementos da composição são necessários para o fluxo da operação, enquanto na union, faz-se necessário pelo menos um dos elementos da composição. 
+ Por exemplo:
+  Struct: se queremos cadastrar um aluno numa universidade, precisamos da matrícula E do nome E da data de nascimento E do curso E...etc.
+  Union: se queremos oferecer opções de pagamento ao cliente, podemos perguntar se o pagamento será realizado via cartão OU pix OU dinheiro.

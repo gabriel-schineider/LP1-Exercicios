@@ -1,0 +1,6 @@
+#PERGUNTA:
+ O que é união discriminada e por que ela é necessária?
+
+
+#RESPOSTA
+ É uma union é uma estrutura de dados que, em execução, representa um dos dados pré-definidos nessa composição. A qualidade de ser discriminada diz respeito ao programa saber distinguir qual dos dados da union é o que está sendo utilizado após acontecer a atribuição. Isso é importante, pois, sem ela a tipagem fica insegura, ou seja, com essa informação, o programa sabe qual tipo de dado está sendo armazenado e impede a ocorrência de manipulações indevidas com os tipos da union.
