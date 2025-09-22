@@ -1,0 +1,20 @@
+#PERGUNTA 1
+ Explique com suas próprias palavras as diferentes abordagens dos exercícios 2 e 3.
+ 
+#RESPOSTA 1
+ Enquanto no exercício 2 trabalhamos diretamente com a estrutura e seus respectivos campos, no exercício 3 trabalhamos com um ponteiro para a tal estrutura. Desse modo, a manipulação do código dá-se de forma diferente. 
+
+
+
+#PERGUNTA 2
+ Qual abordagem você prefere usar e porquê?
+
+#RESPOSTA 2
+ A de ponteiros. Ainda que seja relativamente mais complexa e demande mais cuidado, essa abordagem parece ter mais aplicações, visto que há momentos mais propícios para o uso de um ponteiro do que a variável em si.
+
+
+#PERGUNTA 3
+ Na sua opinião quais são as diferenças de uso de memória e velocidade nas duas abordagens?
+
+#RESPOSTA 3
+ Acredito que ambas têm a mesma complexidade de memória e velocidade, pois ambas possuem o mesmo número de variáveis e atuam no mesmo tempo constante.
