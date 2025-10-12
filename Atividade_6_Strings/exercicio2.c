@@ -34,11 +34,11 @@ int main (void)
 	char str_origem2[] = " baby!";
 	int qnt_str_origem1 = tamanho(str_origem1);
 	int qnt_str_origem2 = tamanho(str_origem2);
-	char str_destino[qnt_str_origem1 + qnt_str_origem2 + 1]; // +1 do '\0'
+	char str_destino[qnt_str_origem1 + qnt_str_origem2 + 1]; // esse +1 refere-se ao '\0'
 	concatena(str_destino, str_origem1, str_origem2);
 		
 	printf("%s \n", str_destino); // conferindo a concatenação
-	printf("%d \n", tamanho(str_destino)); // conferindo o tamanho
+	printf("%d \n", tamanho(str_destino)); // conferindo o tamanho da string
 	
 	return 0;
 }
