@@ -1,0 +1,12 @@
+# ENUNCIADO:
+Considerando o terminador \0, que cuidados são necessários ao lidar com strings e arquivos em C...
+
+
+(a) ... ao escrever uma string para um arquivo?
+
+| Escrever caracter a caracter até encontrar o Terminador Nulo '\0', e então adicionar o Terminador Nulo apenas se for para um arquivo binário.
+
+
+(b) ... ao ler uma string de um arquivo?
+
+| Lembrar de atribuir o Terminador Nulo '\0' na posição seguinte ao último caracter se o vetor não estiver totalmente preenchido, ou adicioná-lo na última posição do vetor caso esteja integralmente preenchido.

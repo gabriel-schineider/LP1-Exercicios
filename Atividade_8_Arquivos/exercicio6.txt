@@ -1,0 +1,9 @@
+# ENUNCIADO
+ Altere todos os exercícios anteriores para usar o modo binário do fopen, ex.: fopen("x.txt", "wb")
+
+ Houve alguma mudança de comportamento? Explique.
+
+# RESPOSTA
+  Alterado!
+
+  Não houve, pois primeiro que os dados encontravam-se apenas no intervalo textual e foram escritos para um arquivo de texto e segundo que minha distribuição é Linux. Porém, se os dados fossem escritos para um arquivo diferente de textual, como imagem, poderia sim causar um erro, visto que "wb" escreve para o arquivo binário, ou seja, escreve exatamente do jeito que está, ao passo que "w" escreve para um arquivo textual, podendo causar alterações na hora da escrita. Outro detalhe é o Sistema Operacional, pois dependendo de qual for, podem haver alterações na escrita também.
